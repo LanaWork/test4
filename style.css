@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.item {
+    /* padding: 50px; */
+    /* border: 1px solid transparent; */
+    border: 1px solid #b44107;
+}
+
+@media(min-width: 1366px) {
+
+    .header {
+        width: 1920px;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        margin: 0 auto;
+        grid-template-areas:
+            "item_1 item_2 item_2"
+            "item_3 item_3 item_3"
+    }
+    
+    .item_1 {
+        grid-area: item_1;
+        height: 700px;
+    }
+
+    .item_2 {
+        grid-area: item_2;
+        height: 700px;
+    }
+    .img1 {
+        position: absolute;
+        margin-left: -40em;        
+        width: 1920px;
+        height: 700px;
+}
+    .item_3 {
+        grid-area: item_3;
+    }
+    .item_3 li{
+        display: inline-block;
+        list-style: none;
+    }
+.item_3 li p{
+    padding-top: 18px;
+
+}
+
+     .img2{
+        position: absolute;
+        margin-left: 158px;        
+     }
+     .img3{
+        position: absolute;
+        z-index: 1;
+        margin-top: 26px;
+        margin-left: 349px;
+        width: 345.17px;
+        height: 36px;
+     }
+     #block1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 124px;
+        margin-left: 348.5px;
+        width: 542px;
+        height: 444px;
+     }
+     #block1 h1{
+        font-family:'Merriweather';
+        font-weight: 400;
+        font-size: 55px;
+        text-transform: uppercase;
+        margin-left: 36px;
+        color: #313131;
+     }
+     #block1 h1 span{
+        font-family:'Merriweather';
+        font-weight: 400;
+        font-size: 55px;
+        text-transform: uppercase;
+        margin-left: 80px;
+        color: #313131;  
+     }
+     #block1 h2{
+        font-family:'Merriweather';
+        font-weight: 400;
+        font-size: 55px;
+        text-transform: uppercase;
+        margin-left: 60px;
+        color: #313131;
+     }
+     #block1 p{
+        font-family:'Golos Text';
+        font-weight: 400;
+        font-size: 17px;
+        margin-left: 70px;
+        color: #313131;  
+     }
+     #block1 p span{
+        font-family:'Golos Text';
+        font-weight: 400;
+        font-size: 17px;
+        margin-left: -25px;
+        color: #313131;  
+     }
+      .button1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 510px;
+        margin-left: 400px;
+        width: 233px;
+        height: 72;
+        padding: 12px;
+        border-radius: 40px 40px 40px; 
+        background-color:#1F1F1F;
+        font-family:'Golos Text';
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF; 
+      }
+      .button1:hover {
+        background-color: #FBCE51;
+        border: 2px solid #FBCE51;
+        color: #1F1F1F;
+    }
+      .button2{
+        position: absolute;
+        z-index: 1;
+        margin-top: 510px;
+        margin-left: 648.5px;
+        width: 233px;
+        height: 72;
+        border-radius: 40px 40px 40px; 
+        padding: 12px;
+        border: 2px solid #1F1F1F;
+        background-color: transparent;
+        font-family:'Golos Text';
+        font-weight: 400;
+        font-size: 16px;
+        color: #1F1F1F; 
+      }
+      .button2:hover {
+        background-color: #1F1F1F;
+        color: #FFFFFF;
+    }
+
+
+    .section {
+        width: 1920px;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        margin: 0 auto;
+        grid-template-areas:
+            "item_4 item_4 item_5"
+            "item_6 item_6 item_5"
+            "item_7 item_8 item_8"
+            "item_7 item_9 item_9"
+            "item_10 item_10 item_10"
+            "item_11 item_11 item_11"
+            "item_12 item_12 item_13"
+            "item_14 item_14 item_14"
+            "item_15 item_15 item_15"
+
+
+    }
+    .item_4 {
+        grid-area: item_4;
+    }
+    .heading1  {
+        margin-left: 72px;
+    }
+    .heading1 h2{
+        font-family:'Merriweather';
+        font-weight: 400;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #313131;   
+        margin-top: 187px;
+
+    }
+    .heading1 h2 span{
+        font-family:'Merriweather';
+        font-weight: 700;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #F54932;   
+    }
+    
+    .heading1_1 {
+        display: none;
+    }
+    .item_5 {
+        grid-area: item_5;
+    }
+    .img4{
+        width: 654px;
+        height: 410px;
+        margin-top: 140px;
+        margin-right: 72px;
+        float: right;
+    }
+    .item_6 {
+        grid-area: item_6;
+    }
+    .heading1_2{
+        display: none;
+    }
+
+    .item_7 {
+        grid-area: item_7;
+    }
+    .img5{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 700px;
+        /* height: 787px; */
+    }
+    .item_8 {
+        grid-area: item_8;
+    }
+    .heading2 h2{
+        font-family:'Merriweather';
+        font-weight: 400;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #313131;   
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    .heading2 h2 span{
+        font-family:'Merriweather';
+        font-weight: 700;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #F54932;   
+    }
+    .heading2_1{
+        display: none;
+    } 
+    .item_9 {
+        grid-area: item_9;
+    } 
+
+    .tab p{
+            font-family:'Golos Text';
+            font-weight: 400;
+            font-size: 30px;
+            margin-left: 50px;
+            color: #313131;    
+    }
+    .tab p span{
+        font-family:'Golos Text';
+        font-weight: 600;
+        font-size: 30px;
+        color: #313131;    
+
+    }
+    .tab hr{
+        margin-left: 50px;
+        margin-right: 72px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none; /* Убираем границу для браузера Firefox */
+        color: #D0D0D0;
+        background-color: #D0D0D0;
+        height: 4px;
+    }
+    .vl {
+        border-left: 4px solid #D0D0D0;
+        height: 320px;
+        position: absolute;
+        margin-left: 31em;
+        margin-top: 100px;   
+    }  
+    .tab1 p{
+        margin-top: 110px;
+    } 
+    .tab1 p span{   
+        padding-left: 170px;
+    }
+    .tab2 p span{   
+    padding-left: 45px;
+    }
+    .tab3 p span{   
+        padding-left: 30px;
+    }
+    .tab4 p span{   
+        padding-left: 248px;
+    }
+    .tab5 p span{   
+        padding-left: 10px;
+    }
+    .tab5 p s{   
+        padding-left: 130px;
+        font-family:'Golos Text';
+        font-weight: 600;
+        font-size: 30px;
+        color: #313131;
+        text-decoration: line-through;
+        text-decoration-color: red;
+    }
+    .link a{
+        text-decoration: none;
+    }
+    .link a p{
+        font-family:'Golos Text';
+        font-weight: 400;
+        font-size: 30px;
+        color: #3057A2;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+   
+    .item_10 {
+        grid-area: item_10;
+        padding-bottom: 30px;
+    } 
+    .heading3 h2{
+        font-family:Merriweather;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 64px;
+        color: #313131;
+        margin-left: 72px;
+        margin-top: 200px;
+    }
+    .heading3 a{
+        text-decoration: none;
+    }
+    .heading3 a p{
+        font-family:'Golos Text';
+        font-weight: 400;
+        font-size: 30px;
+        color: #3057A2;
+        position: absolute;
+        margin-left: 450px;
+        margin-top: -80px;
+    }
+    .heading3_1{
+        display: none;
+    }  
+    table {
+        width: 1776px;
+        margin-left: 52px;
+        margin-right: 52px;
+        border-spacing: 30px;
+    }
+    td{
+        width: 578px;
+        height: 195px;
+        background-image:url("img/image-23.png");
+    }
+    td img{
+        width: 100%
+    }
+    /* td span{
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding-left: 40px;
+        padding-top: 40px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        width: 45px;
+        height: 45px;
+        font-family:'Golos Text';
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        line-height: 50px;
+    } */
+    .img6{
+        position: absolute;
+        margin-top: -290px;
+        margin-left: 690px;
+        width: 500px;
+    }
+    .circle {
+        display: inline-block;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        font-family:'Golos Text';
+        font-weight: 600;
+        font-size: 30px;
+        /* border: 2px solid black;  */
+      }
+    td{
+    vertical-align: top;
+    }
+  td p{
+    /* position: absolute; */
+    font-family:'Golos Text';
+    font-weight: 500;
+    font-size: 30px;
+    /* margin-left: 80px; */
+    margin-top: -20px;
+    color: #313131; 
+    text-align: start;
+    padding-left: 80px;
+    padding-top: 45px;
+    /* vertical-align: top; */
+  }
+  .col3{
+   /* margin-top: -20px; */
+  }
+    .item_11 {
+        grid-area: item_11;
+    } 
+ 
+    .item_12 {
+        grid-area: item_12;
+    }    
+    .item_13 {
+        grid-area: item_13;
+    }    
+    .item_14 {
+        grid-area: item_14;
+    }
+    .item_15 {
+        grid-area: item_15;
+    }
+
+    .footer {
+        width: 1920px;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        margin: 0 auto;
+        grid-template-areas:
+            "item_16 item_16 item_16"
+
+    }
+    
+    .item_16 {
+        grid-area: item_16;
+    }
+}
+
